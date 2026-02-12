@@ -35,6 +35,12 @@ def get_sad_quote() -> str:
     return sad_quotes[index]
 
 
+def get_neutral_quote() -> str:
+    """Return a random neutral quote."""
+    index = random.randint(0, len(neutral_quotes) - 1)
+    return neutral_quotes[index]
+
+
 def get_quotes(number_of_quotes: int) -> List[str]:
     """
     Return a specified number of random quotes from all collections.
