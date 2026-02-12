@@ -1,0 +1,9 @@
+{
+    "chat.mcp.serverSampling": {
+        "1Hello/.vscode/mcp.json: mcp-server-AXBC": {
+            "allowedModels": [
+                "copilot/auto"
+            ]
+        }
+    }
+}

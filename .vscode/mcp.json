@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "mcp-server-AXBC": {
+            "command": "uv",
+            "args": [
+                "run",
+                "server.py"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    }
+}
